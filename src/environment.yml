@@ -1,0 +1,21 @@
+name: svgtopdf
+channels:
+  - defaults
+dependencies:
+  - python=3.8  # or any version you prefer
+  - pip
+  - pip:
+    - svglib
+    - reportlab
+
+# name: svg_processing
+# channels:
+#   - defaults
+# dependencies:
+#   - python=3.9
+#   # Add other dependencies here
+#   # Example: - numpy=1.20.0
+#   - pip
+#   # - pip:
+#     # Add pip dependencies here
+#     # Example: - some-pip-package==1.0.0
